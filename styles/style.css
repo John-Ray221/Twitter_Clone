@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:rgb(21, 32, 43);
+    color:white;
+    height:100vh;
+}
+svg{
+    fill: white;
+}
+.logo-section{
+    display:flex;
+    align-items: center;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    
+    
+}
+.logo-section:hover{
+    background-color: #273340;
+}
+.logo{
+    width:50px;
+    height:30px;
+}
