@@ -3,11 +3,23 @@
     padding:0px;
     box-sizing: border-box;
     text-decoration: none;
+    list-style-type: none;
+    color:white;
+
 }
 body{
     background-color:rgb(21, 32, 43);
-    color:white;
+    font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     height:100vh;
+}
+.container{
+    height: 92vh;
+}
+header{
+    height:100%;
+    width:300px;
+    padding-left:40px;
+    /* border-right:solid 1px pink; */
 }
 svg{
     fill: white;
@@ -18,13 +30,63 @@ svg{
     width:50px;
     height:50px;
     border-radius: 50%;
-    
-    
+
 }
 .logo-section:hover{
     background-color: #273340;
 }
 .logo{
+    margin-left: 10px;
     width:50px;
     height:30px;
+}
+.nav-items{
+    
+    height:100%;
+    
+}
+.nav-item{
+    background-color: yellow;
+    height:50px;
+}
+.nav-items ul li{
+    padding:0px 12px 20px 12px;
+    font-size: 20px;
+    
+}
+.nav-items ul:first-child{
+    padding-top:12px;
+}
+.icon{
+    margin-right:20px;
+}
+ul li a{
+    padding:10px 25px 10px 10px;
+    border-radius: 30px;
+    
+}
+.nav-items ul li a:hover{
+    background-color:#273340;
+}
+.item-text{
+    margin-right:0 20px 0 20px;
+}
+.active{
+    font-weight: 700;
+}
+.btn-tweet{
+    background-color: #1d9bf0;
+    height:52px;
+    width:80%;
+    text-align: center;
+    border-radius: 30px;
+    margin-top:0;
+    margin-left:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-text{
+    font-size:15px;
+    font-weight: 700;
 }
