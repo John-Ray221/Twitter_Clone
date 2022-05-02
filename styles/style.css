@@ -116,11 +116,19 @@ ul li a{
 main{
     width:calc(100vw - 300px);
     height:100vh;
-    border-left: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
 }
 .main-content{
     width:600px;
-    border-right: 1px solid grey;
+    height:100%;
+    border-right: 1px solid rgb(56, 68, 77);
+    border-left: 1px solid rgb(56, 68, 77);
+    
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display:none;
 }
 .title-section{
     display:flex;
@@ -128,20 +136,26 @@ main{
     align-items: center;
     height:53px;
     padding:0 16px;
+    background-color: rgb(21, 32, 43) ;
+    opacity: 0.95;
+    width: 597px;
+    position:fixed;
+    top:0;
+    border-left: 1px solid rgb(56, 68, 77);
 }
 
-.tweet-section{
+.post-section{
     display:flex;
     justify-content: space-between;
-    padding:4px 16px 12px 16px;
+    padding:57px 16px 12px 16px;
     width:100%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(56, 68, 77);
 }
 .profile{
     width:52px;
     height:52px;
 }
-.profile > img{
+.profile img{
     width:48px;
     height:48px;
     border-radius: 50%;
@@ -187,4 +201,69 @@ main{
     align-items: center;
     justify-content: center;
     border-radius: 30px;
+}
+
+.tweets-section{
+    height:100%;
+    padding:12px 16px;
+    
+}
+
+.tweet-post{
+    display:flex;
+    margin-bottom:12px;
+}
+.tweet-detials{
+    display:flex;
+}
+.margin{
+    margin-right: 15px;
+}
+.name{
+    font-size:15px;
+    font-weight: 700;
+    margin-right:5px;
+}
+.profile-id{
+    color:#8B98A5;
+}
+.tweet{
+    font-size:15px;
+    font-weight: inherit;
+}
+.post-media{
+    padding-top:12px;
+    
+}
+.media{
+    width:100%;
+    border-radius: 16px;
+}
+.tweet-actions{
+    display:flex;
+    width:425px;
+    justify-content: space-between;
+}
+.tweet-actions img{
+    height:18.75px;
+    width:18.75px;
+}
+.tweet-action{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:35px;
+    height:35px;
+    border-radius: 30px;
+    
+
+}
+.tweet-action:hover{
+    background-color:#273340;
+}
+
+.side-bar{
+    
+    height: 100vh;
+    width: calc(100% - 598px);
 }
