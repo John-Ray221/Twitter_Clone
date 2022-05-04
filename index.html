@@ -11,7 +11,8 @@
 <body>
     <div class="container">
         <header>
-        <section class="navigation">
+        <!-- The navigation section with links -->
+        <div class="navigation">
         <div class="logo-section">
                <img class="logo" src="./images/svgexport-1.svg" alt=""/>
         </div>
@@ -31,7 +32,7 @@
             <div class="btn-tweet">
                 <span class="btn-text"><a href="#">Tweet</a></span>
             </div>
-            </section>
+        </div>
 
             <div class="profile-details">
                 <div class="profile-img">
@@ -63,8 +64,8 @@
                     <span class="active">Home</span>
                 </div>
 
-                <div class="star-icon">
-                    <img src="./images/top-tweets.svg" alt="" />
+                <div class="top-tweets">
+                    <img class="star-icon"src="./images/top-tweets.svg" alt="" />
                 </div>
             </div>
             <!-- The post section with pofile and post actions -->
@@ -134,16 +135,18 @@
                             </div>
                             
                             <div class="tweet-actions">
-                                <div class="tweet-action reply"><img src="./images/reply-icon.svg" alt="" /></div>
-                                <div class="tweet-action retweet"><img src="./images/retweet-icon.svg" alt="" /></div>
-                                <div class="tweet-action like"><img src="./images/like-icon.svg" alt="" /> </div>
-                                <div class="tweet-action share"><img src="./images/share-icon.svg" alt="" /> </div>
+                                <div class="reply"><div class="tweet-action"><img src="./images/reply-icon.svg" alt="" /></div><div class="counter"></div></div>
+                                <div class="retweet"><div class="tweet-action"><img src="./images/retweet-icon.svg" alt="" /></div><div class="counter">2</div></div>
+                                <div class="like"><div class="tweet-action"><img src="./images/like-icon.svg" alt="" /></div><div class="counter">8</div></div>
+                                <div class="share"><div class="tweet-action "><img src="./images/share-icon.svg" alt="" /></div></div>
                             </div>
 
                         </div>
                     </div>
                 
                 </div>
+
+                
 
                 <!-- Second Tweet Post -->
                 <div class="tweet-post">
@@ -171,43 +174,50 @@
                             </p>
                             <!-- The tweet actions -->
                             <div class="tweet-actions">
-                                <div class="tweet-action reply"><img src="./images/reply-icon.svg" alt="" /></div>
-                                <div class="tweet-action retweet"><img src="./images/retweet-icon.svg" alt="" /></div>
-                                <div class="tweet-action like"><img src="./images/like-icon.svg" alt="" /> </div>
-                                <div class="tweet-action share"><img src="./images/share-icon.svg" alt="" /> </div>
+                                <div class="reply"><div class="tweet-action"><img src="./images/reply-icon.svg" alt="" /></div><div class="counter">44.8K</div></div>
+                                <div class="retweet"><div class="tweet-action"><img src="./images/retweet-icon.svg" alt="" /></div><div class="counter">121.3K</div></div>
+                                <div class="like"><div class="tweet-action"><img src="./images/like-icon.svg" alt="" /></div><div class="counter">1.1M</div></div>
+                                <div class="share"><div class="tweet-action "><img src="./images/share-icon.svg" alt="" /></div></div>
                             </div>
 
                         </div>
                     </div>
                 
                 </div>
+                
+                
 
                 <!-- Third Tweet Post -->
                 <div class="tweet-post">
                     <!-- The profile image posted the tweet -->
                     <div class="profile margin">
-                        <img src="https://pbs.twimg.com/profile_images/1250418752513957888/YSlALFjQ_400x400.jpg" alt=""/>
+                        <img src="https://pbs.twimg.com/profile_images/573984336271122432/k8vEBoCW_400x400.jpeg" alt=""/>
                     </div>
                     <!-- Tweet content -->
                     <div class="tweet-content">
                         <div class="tweet-details">
-                            <span class="name">Zaio</span><span class="profile-id">@zaionites . April 13</span>
+                            <span class="name">Marvel Entertainment</span><span class="profile-id">@Marvel . May 04</span>
                         </div>
                         <!-- Tweet text and media -->
                         <div class="tweet">
-                            <p>Secure your future with the most in-demand skill of the century. Upgrade your career. Kickstart your career. Be the new you.
-                                <br/>Learn more: http://zaio.io
+                            <p>We’re seeing plenty of stars in this Universe. 🌀💫
+                                <br>
+                                <br>
+                                Travel through the Multiverse with the stars of Marvel Studios’ #DoctorStrange in the Multiverse of Madness at the World Premiere. Experience it only in theaters this Friday! <a href="http://fandango.com/DoctorStrange">fandango.com/DoctorStrange</a>
+                                 <br>
+                                 <br>
+                                📸 by Julian Buchan
                             </p>
                             <div class="tweet-media">
-                                <img class="media" src="https://pbs.twimg.com/media/FQNjngZXEAEf_eU?format=jpg&name=small" alt="" />
+                                <img class="media" src="https://pbs.twimg.com/media/FR2lbKUXIAAtDOK?format=jpg&name=small" alt="" />
                             </div>
                           <!-- The tweet actions -->
-                            <div class="tweet-actions">
-                                <div class="tweet-action reply"><img src="./images/reply-icon.svg" alt="" /></div>
-                                <div class="tweet-action retweet"><img src="./images/retweet-icon.svg" alt="" /></div>
-                                <div class="tweet-action like"><img src="./images/like-icon.svg" alt="" /> </div>
-                                <div class="tweet-action share"><img src="./images/share-icon.svg" alt="" /> </div>
-                            </div>
+                          <div class="tweet-actions">
+                            <div class="reply"><div class="tweet-action"><img src="./images/reply-icon.svg" alt="" /></div><div class="counter">1</div></div>
+                            <div class="retweet"><div class="tweet-action"><img src="./images/retweet-icon.svg" alt="" /></div><div class="counter">300</div></div>
+                            <div class="like"><div class="tweet-action"><img src="./images/like-icon.svg" alt="" /></div><div class="counter">3,129</div></div>
+                            <div class="share"><div class="tweet-action "><img src="./images/share-icon.svg" alt="" /></div></div>
+                        </div>
 
                         </div>
                     </div>
@@ -220,6 +230,15 @@
         </div>
         <!-- The side bar section -->
         <div class="side-bar">
+
+            <div class="search-section">
+                <form class="search-bar">
+                    <img class="search-icon" src="./images/search-icon.svg" alt="">
+                    <div>
+                        <input type="text" placeholder="Search Twitter">
+                    </div>
+                </form>
+            </div>
 
             <!-- Trends for you section -->
             <div class="trends">
@@ -351,6 +370,10 @@
                     <a href="#">More</a>
 
                 </ul>
+
+                <div class="copyright">
+                    &copy;John-Ray Hendricks Twitter Clone
+                </div>
             </div>
         </div>
     </div>
