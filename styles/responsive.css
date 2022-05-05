@@ -1,0 +1,45 @@
+@media(max-width: 425px) {
+   .container{
+       width:100%;
+       
+   }
+    header{
+       display:none;
+   }
+   .side-bar{
+       display:none;
+   }
+   main{
+       width:100%;
+   }
+   .main-content{
+       width:100%;
+   }
+   .title-section{
+       width:100%;
+   }
+   .title > .profile{
+    display: flex;
+    align-items: center;
+}
+   .post-section{
+       display:none;
+   }
+   .tweets-section{
+       width:100%;
+       margin-top:60px;
+   }
+   .margin{
+       margin-right:5px;
+   }
+   .tweet-actions{
+       width:100%;
+   }
+   .mobile-tweet-btn{
+       display:flex;
+   }
+   .mobile-nav{
+       display: flex;
+   }
+   
+}

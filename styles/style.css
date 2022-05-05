@@ -144,6 +144,18 @@ main{
     position:fixed;
     
 }
+.title{
+    display:flex;
+    align-items: center;
+}
+.title > .profile{
+    display: none;
+    align-items: center;
+}
+.title > .profile > img{
+    width:32px;
+    height: 32px;
+}
 .top-tweets{
     display:flex;
     align-items: center;
@@ -367,4 +379,38 @@ main{
 }
 .side-footer a, .copyright{
     color:#8B98A5;
+}
+
+.mobile-tweet-btn{
+    display:none;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    bottom: 70px;
+    right:15px;
+    border-radius: 50%;
+    background-color:#1d9bf0;
+    width:56px;
+    height: 56px;
+}
+.mobile-nav{
+    border-top:rgb(56, 68, 77) 1px solid;
+    display:none;
+    width: 100%;
+    height: 53px;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    bottom:0;
+    background-color: #15202B;
+
+}
+.nav-icon{
+    width:42.25px;
+    height: 42.25px;
+    padding:8px;
+}
+.nav-icon img{
+    width: 26px;
+    height: 26px;
 }
